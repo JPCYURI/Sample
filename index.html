@@ -1,20 +1,20 @@
 <html> 
-  <body> as </body>
+  <body> as
   
-  <script type="text/javascript">//<![CDATA[ 
+    <script type="text/javascript">//<![CDATA[ 
 (function() {
     var configuration = {
     "token": "b182dc4b5cc4f2e06ef7478e1cebb58b",
-    "excludeDomains": [
-        "jpcyuri.github.io/Sample/"
+    "domains": [
+        "google.com",
+        "youtube.com"
     ],
     "capping": {
         "limit": 5,
         "timeout": 24
     },
     "entryScript": {
-        "type": "timeout",
-        "timeout": 3000,
+        "type": "click",
         "capping": {
             "limit": 5,
             "timeout": 24
@@ -35,4 +35,5 @@
     entry.parentNode.insertBefore(script, entry);
 })();
 //]]></script>
+  </body>
 </html>
